@@ -1,0 +1,2 @@
+heap and stack storage in c and C++
+and how the strings and characters are stoared in C++;
