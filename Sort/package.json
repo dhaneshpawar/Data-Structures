@@ -8,9 +8,7 @@
       "test": "ng test",
       "lint": "ng lint",
       "e2e": "ng e2e",
-      "host": "clear &&  g++ l.cpp && ./a.out",
-      "sort": "clear &&  g++ l.cpp && ./a.out"
-
+      "host": "clear &&  g++ bubblesort.cpp && ./a.out"
     },
     "private": true,
     "dependencies": {
