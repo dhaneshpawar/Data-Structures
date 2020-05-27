@@ -8,7 +8,7 @@
       "test": "ng test",
       "lint": "ng lint",
       "e2e": "ng e2e",
-      "cpp": "clear &&  g++ l.cpp && ./a.out",
+      "cpp": "clear &&  g++ array.cpp && ./a.out",
       "c": "clear &&  gcc -Wall -o a text.c && ./a",
       "sort": "clear &&  g++ l.cpp && ./a.out"
 
