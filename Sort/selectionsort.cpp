@@ -10,7 +10,9 @@ void printarr(int arr[]){
 }
 
 int main(){
-    int arr[] = {5,6,4,7,3,8,2,9,1,0};
+    int arr[] = {8,6,7,5,9,4,0,3,1,2};
+    int total = 0;
+    // int arr[] = {5,6,4,7,3,8,2,9,1,0};
     printarr(arr);
 
     for(int i=0;i<10;i++){
@@ -19,6 +21,7 @@ int main(){
            if(arr[j] < arr[minindex]){
                minindex = j;
            } 
+           total++;
         }
         int temp = arr[i];
         arr[i] = arr[minindex];
@@ -27,4 +30,5 @@ int main(){
         printarr(arr);
     }
     printarr(arr);
+    cout << "\n total passes = " << total << "\n"; 
 }
