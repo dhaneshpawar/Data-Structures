@@ -1,0 +1,7 @@
+{
+    "name": "letusc",
+    "version": "0.0.0",
+    "scripts": {
+      "c": "clear &&  gcc -Wall -o a demo.c && ./a"
+    }
+}
